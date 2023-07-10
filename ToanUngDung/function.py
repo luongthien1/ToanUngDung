@@ -13,5 +13,5 @@ def readnext(f:io.TextIOWrapper):
         t = f.read(1)
         if (t == " ") or (t == "\n") or (t == ''):
             break
-        s += tddddd
+        s += t
     return s
