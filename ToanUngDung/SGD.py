@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import random
+import os
 
 
 def cost(x, b0, b1):  # f(x)
